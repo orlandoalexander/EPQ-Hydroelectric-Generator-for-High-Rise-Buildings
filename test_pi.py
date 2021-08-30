@@ -6,7 +6,7 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 GPIO.setup(26, GPIO.OUT)
-
+time.sleep(3)
 # Set trigger to Low
 GPIO.output(26, GPIO.HIGH)
 
