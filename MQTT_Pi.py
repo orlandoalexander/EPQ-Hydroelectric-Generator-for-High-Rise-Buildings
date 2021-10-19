@@ -108,9 +108,11 @@ def on_message_open_barrier(client, userdata, msg):
         print("All barriers are open")
         # open barrier
         GPIO.output(GPIO_ELECTROMAGNET, GPIO.HIGH)
-        time.sleep(0.5)
+        GPIO.output(GPIO_SOLENOID, GPIO.HIGH)
+        time.sleep(1)
         GPIO.output(GPIO_ELECTROMAGNET, GPIO.LOW)
-        time.sleep(20)
+        GPIO.output(GPIO_SOLENOID, GPIO.LOW)
+        time.sleep(5)
         GPIO.output(GPIO_SOLENOID, GPIO.HIGH)
         time.sleep(1)
         GPIO.output(GPIO_SOLENOID, GPIO.LOW)
@@ -120,8 +122,10 @@ def on_message_open_barrier(client, userdata, msg):
         print("Barrier 4 is open")
         # open barrier
         GPIO.output(GPIO_ELECTROMAGNET, GPIO.HIGH)
-        time.sleep(0.5)
+        GPIO.output(GPIO_SOLENOID, GPIO.HIGH)
+        time.sleep(1)
         GPIO.output(GPIO_ELECTROMAGNET, GPIO.LOW)
+        GPIO.output(GPIO_SOLENOID, GPIO.LOW)
         if distance != "None": 
             while float(distance) > 0.3:
                 distance = get_ultrasonic_distance()
