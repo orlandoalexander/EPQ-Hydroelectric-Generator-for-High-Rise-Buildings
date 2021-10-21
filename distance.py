@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 import RPi.GPIO as GPIO
 import time
 
-print("Ultrasonic Measurement")
+
 def get_ultrasonic_distance():
     # Speed of sound in cm/s at temperature
     temperature = 25
@@ -57,6 +57,7 @@ def get_ultrasonic_distance():
     GPIO.cleanup()
     
     return distance
- 
+
+print("Ultrasonic Measurement")
 for i in range (30):
-  print(get_ultrasonic_distance())
+    print(get_ultrasonic_distance())
