@@ -60,5 +60,5 @@ def get_ultrasonic_distance():
     return distance
 
 print("Ultrasonic Measurement")
-for i in range (30):
-    print(get_ultrasonic_distance())
+test = get_ultrasonic_distance()
+print(test)
