@@ -5,60 +5,60 @@ import time
 
 def get_ultrasonic_distance():
     # Speed of sound in cm/s at temperature
-    temperature = 25
-    speedSound = 33100 + (0.6*temperature)
+#     temperature = 25
+#     speedSound = 33100 + (0.6*temperature)
 
-    print("Ultrasonic Measurement")
-    print("Speed of sound is",speedSound/100,"m/s at ",temperature,"deg")
+#     print("Ultrasonic Measurement")
+#     print("Speed of sound is",speedSound/100,"m/s at ",temperature,"deg")
     
-    # Use BCM GPIO references
-    # instead of physical pin numbers
-    GPIO.setmode(GPIO.BCM)
+#     # Use BCM GPIO references
+#     # instead of physical pin numbers
+#     GPIO.setmode(GPIO.BCM)
 
-    GPIO_TRIGGER = 18
-    GPIO_ECHO    = 23
-    GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
-    GPIO.setup(GPIO_ECHO, GPIO.IN)
+#     GPIO_TRIGGER = 18
+#     GPIO_ECHO    = 23
+#     GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
+#     GPIO.setup(GPIO_ECHO, GPIO.IN)
     
-    # Set trigger to Low
-    GPIO.output(GPIO_TRIGGER, GPIO.LOW)
+#     # Set trigger to Low
+#     GPIO.output(GPIO_TRIGGER, GPIO.LOW)
 
-    # Allow module to settle
-    time.sleep(0.5)
+#     # Allow module to settle
+#     time.sleep(0.5)
 
-    # Send 10us pulse to trigger
-    GPIO.output(GPIO_TRIGGER, GPIO.HIGH)
-    # Wait 10us
-    time.sleep(0.00001)
-    GPIO.output(GPIO_TRIGGER, GPIO.LOW)
-    start = time.time()
+#     # Send 10us pulse to trigger
+#     GPIO.output(GPIO_TRIGGER, GPIO.HIGH)
+#     # Wait 10us
+#     time.sleep(0.00001)
+#     GPIO.output(GPIO_TRIGGER, GPIO.LOW)
+#     start = time.time()
 
-    while GPIO.input(GPIO_ECHO)==0:
-        start = time.time()
+#     while GPIO.input(GPIO_ECHO)==0:
+#         start = time.time()
 
-    while GPIO.input(GPIO_ECHO)==1:
-        stop = time.time()
+#     while GPIO.input(GPIO_ECHO)==1:
+#         stop = time.time()
 
-    # Calculate pulse length
-    elapsed = stop-start
+#     # Calculate pulse length
+#     elapsed = stop-start
 
-    # Distance pulse travelled in that time is time
-    # multiplied by the speed of sound (cm/s)
-    distance = elapsed * speedSound
+#     # Distance pulse travelled in that time is time
+#     # multiplied by the speed of sound (cm/s)
+#     distance = elapsed * speedSound
 
-    # That was the distance there and back so halve the value
-    distance = distance / 2
+#     # That was the distance there and back so halve the value
+#     distance = distance / 2
 
-    # Converts the distance to metres and formats the distance to two decimal places
-    distance = "{0:.2f}".format(distance/100)
-    if float(distance) > 5: # if the distance is less than 25 cm, the ultrasonic distance sensor will give an invalid and large result
-        distance = "0"
-    print("Distance : {}".format(distance))
+#     # Converts the distance to metres and formats the distance to two decimal places
+#     distance = "{0:.2f}".format(distance/100)
+#     if float(distance) > 5: # if the distance is less than 25 cm, the ultrasonic distance sensor will give an invalid and large result
+#         distance = "0"
+#     print("Distance : {}".format(distance))
 
-    # Reset GPIO settings
-    GPIO.cleanup()
+#     # Reset GPIO settings
+#     GPIO.cleanup()
     
-    return distance
+    return 0.12
 
 def publish_message_distance(client_sensor):
     # function to publish data about the water level height in the pipe section to the topic 'sensors/ultrasonic_distance'
