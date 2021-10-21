@@ -7,6 +7,7 @@ def on_connect(client, userdata, flags, rc):
     if rc == 0: # if connection is successful
         print("Connected")
     else:
+        print("not connected")
         # attempts to reconnect
         client.on_connect = on_connect
         client.username_pw_set(username="yrczhohs", password="qPSwbxPDQHEI")
