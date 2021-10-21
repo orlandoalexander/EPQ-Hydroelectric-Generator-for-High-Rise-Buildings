@@ -30,11 +30,13 @@ def get_ultrasonic_distance():
     time.sleep(0.00001)
     GPIO.output(GPIO_TRIGGER, GPIO.LOW)
     start = time.time()
+  
 
     while GPIO.input(GPIO_ECHO)==0:
         start = time.time()
 
     while GPIO.input(GPIO_ECHO)==1:
+        print("hi")
         stop = time.time()
 
     # Calculate pulse length
