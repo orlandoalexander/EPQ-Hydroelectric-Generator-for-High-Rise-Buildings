@@ -1,12 +1,13 @@
 # Hydroelectric Generator for High-Rise Buildings
-<img src="https://user-images.githubusercontent.com/67097862/162092065-b41f5e19-0582-4016-81c4-8e68e7d805f7.JPG" align = "right" width="200">
+<img src="https://user-images.githubusercontent.com/67097862/162092065-b41f5e19-0582-4016-81c4-8e68e7d805f7.JPG" align = "right" width="300">
+<img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" align = "left" width="200">
 
 
 Concealed system which maximises energy harnessed from wastewater using a microcontrollers and sensors.
 
 This project was completed for the Extended Project Qualification (EPQ) and was awarded 100%/A*.
 
-My **hydroelectric generator for high-rise buildings** provides a new, compact energy solution which uses existing infrastructure to generate electricity at a local level. <img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" align = "right" width="200">
+My **hydroelectric generator for high-rise buildings** provides a new, compact energy solution which uses existing infrastructure to generate electricity at a local level. 
 The generator system is contained within a single wastewater pipe running down the side of a high-rise building and is powered by 
 the kinetic energy of the grey water  as it passes across a Pelton water turbine located on the ground floor of the building. The system maximizes the energy harnessed from the wastewater by using microcontrollers (Raspberry Pi), electromagnet-operated barriers and integrated liquid and ultrasonic sensors which work 
 together to redistribute the grey wastewater throughout the pipe before it is released across the turbine. 
@@ -17,7 +18,7 @@ _Why does this work?_
 
 The use of dynamic barriers within the pipe divide the grey water pipe into sections, with each section corresponding to the piping for one floor in the 
 high-rise building. Unlike traditional water tank-based methods of harnessing energy from wastewater which can only capitalise on water leaving the building 
-above the tank, this <img src="https://user-images.githubusercontent.com/67097862/162088411-836c58bf-a3d7-4dd9-a7a5-818aa285d646.jpg" align = "right" width="200">
+above the tank, this 
 system means that the wastewater from each floor in the building is stored and then passed over the turbine. 
 Moreover, while water tank-based systems store all the water at a constant head, the wastewater from each floor can be stored at or close to the height at which it is released from the building. 
 This greatly increases the power potential from the wastewater, as a key component of hydropower is the water head.
@@ -38,3 +39,6 @@ Feel free to have a read of my report on the project, if you have a moment(!). I
 
 [EPQ Report.docx](https://github.com/orlandoalexander/EPQ-Hydroelectric-Generator-for-High-Rise-Buildings/files/8435207/EPQ.Report.Final.docx)
 
+
+<img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" align = "right" width="200">
+<img src="https://user-images.githubusercontent.com/67097862/162088411-836c58bf-a3d7-4dd9-a7a5-818aa285d646.jpg" align = "right" width="200">
