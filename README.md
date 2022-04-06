@@ -1,5 +1,6 @@
 # Hydroelectric Generator for High-Rise Buildings
 <img src="https://user-images.githubusercontent.com/67097862/162092065-b41f5e19-0582-4016-81c4-8e68e7d805f7.JPG" align = "right" width="200">
+<img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" align = "right" width="200">
 
 
 Concealed system which maximises energy harnessed from wastewater using a microcontrollers and sensors.
@@ -7,7 +8,6 @@ Concealed system which maximises energy harnessed from wastewater using a microc
 This project was completed for the Extended Project Qualification (EPQ) and was awarded 100%/A*.
 
 My **hydroelectric generator for high-rise buildings** provides a new, compact energy solution which uses existing infrastructure to generate electricity at a local level. The generator system is contained within a single wastewater pipe running down the side of a high-rise building and is powered by 
-<img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" align = "right" width="200">
 the kinetic energy of the grey water  as it passes across a Pelton water turbine located on the ground floor of the building. The system maximizes the energy harnessed from the wastewater by using microcontrollers (Raspberry Pi), electromagnet-operated barriers and integrated liquid and ultrasonic sensors which work 
 together to redistribute the grey wastewater throughout the pipe before it is released across the turbine. 
 
