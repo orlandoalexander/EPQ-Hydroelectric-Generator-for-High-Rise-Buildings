@@ -32,7 +32,7 @@ This repository contains all the programs used within this project:
 
 1. _main.py_ - runs on each Raspberry Pi (located at each pipe barrier mechanism) and executes commands from the central server. These commands include obtaining ultrasonic distance measurements or opening/closing the barrier mechanism.
 2. _liquid.py_ - supplementary program which runs on each Raspberry Pi to detect for the presence of water (using the liquid level sensor) below the barrier mechanism, and notifies the central server when water is detected.
-3. _server.py_ - coordinates which barrier mechanisms should open and which should close in response to the data it receives from the liquid level and ultrasonic distance sensors connected to each barrier mechanism.
+3. _server.py_ - coordinates which barrier mechanisms should open and which should close in response to the data it receives from the liquid level and ultrasonic distance sensors connected to each Raspberry Pi. Communciation between the server and the Raspberry Pi devices is using _mqtt_ protocol.
 4. _nodes_sim_main.py_ - simulates the behavior of the files _main.py_ which are running on the other Rapsberry Pi devices within the system.
 5. _nodes_sim_liquid.py_ - simulates the behavior of the files _liquid.py_ which are running on the other Rapsberry Pi devices within the system.
 <br />
