@@ -1,6 +1,7 @@
 # Hydroelectric Generator for High-Rise Buildings
-<img src="https://user-images.githubusercontent.com/67097862/162092065-b41f5e19-0582-4016-81c4-8e68e7d805f7.JPG" align = "right" width="300">
+<img src="https://user-images.githubusercontent.com/67097862/162092065-b41f5e19-0582-4016-81c4-8e68e7d805f7.JPG" align ="left" width="355">
 <img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" align = "left" width="200">
+<img src="https://user-images.githubusercontent.com/67097862/162088411-836c58bf-a3d7-4dd9-a7a5-818aa285d646.jpg" align = "center" width="200">
 
 
 Concealed system which maximises energy harnessed from wastewater using a microcontrollers and sensors.
@@ -40,5 +41,3 @@ Feel free to have a read of my report on the project, if you have a moment(!). I
 [EPQ Report.docx](https://github.com/orlandoalexander/EPQ-Hydroelectric-Generator-for-High-Rise-Buildings/files/8435207/EPQ.Report.Final.docx)
 
 
-<img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" align = "right" width="200">
-<img src="https://user-images.githubusercontent.com/67097862/162088411-836c58bf-a3d7-4dd9-a7a5-818aa285d646.jpg" align = "right" width="200">
