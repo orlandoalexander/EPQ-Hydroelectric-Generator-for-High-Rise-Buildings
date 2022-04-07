@@ -1,5 +1,5 @@
 # Hydroelectric Generator for High-Rise Buildings
-Concealed system which maximises energy harnessed from wastewater using a microcontrollers and sensors.
+Concealed system which maximises energy harnessed from wastewater using microcontrollers, electromagnets and sensors.
 
 This project was completed for the Extended Project Qualification (EPQ) and was awarded 100%/A*.
 
