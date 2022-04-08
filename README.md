@@ -3,7 +3,7 @@ Concealed system which maximises energy harnessed from wastewater using microcon
 
 This project was completed for the Extended Project Qualification (EPQ) and was awarded 100%/A*.
 
-My **hydroelectric generator for high-rise buildings** provides a new, compact energy solution which uses existing infrastructure to generate electricity at a local level. 
+The **hydroelectric generator for high-rise buildings** provides a new, compact energy solution which uses existing infrastructure to generate electricity at a local level. 
 The generator system is contained within a single wastewater pipe running down the side of a high-rise building and is powered by 
 the kinetic energy of the grey water  as it passes across a Pelton water turbine located on the ground floor of the building. The system maximizes the energy harnessed from the wastewater by using microcontrollers (Raspberry Pi), electromagnet-operated barriers and integrated liquid and ultrasonic sensors which work together to redistribute the grey wastewater throughout the pipe before it is released across the turbine.
 <br /><br />
@@ -37,7 +37,7 @@ This repository contains all the programs used within this project:
 5. _nodes_sim_liquid.py_ - simulates the behavior of the files _liquid.py_ which are running on the other Rapsberry Pi devices within the system.
 <br />
 
-Feel free to have a read of my report on the project, if you have a moment(!). It covers the background to the project, the development process and all the nitty-gritty design details:
+Feel free to have a read of my report on the project if you have a moment (or a few!). It covers the background to the project, the development process and all the nitty-gritty design details:
 
 [EPQ Report.docx](https://github.com/orlandoalexander/EPQ-Hydroelectric-Generator-for-High-Rise-Buildings/files/8435207/EPQ.Report.Final.docx)
 
