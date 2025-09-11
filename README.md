@@ -67,7 +67,7 @@ This repository contains all the programs used within this project:
   <img src="https://github.com/user-attachments/assets/7fef541a-206a-48e6-820b-dcf9a8b61fa0" width="300" />
 </p>
  
-
+<br/>
 
 Feel free to have a read of my report on the project if you have a moment (or a few!). It covers the background to the project, the development process and all the nitty-gritty design details:
 
