@@ -10,7 +10,7 @@ the kinetic energy of the grey water  as it passes across a Pelton water turbine
 <img src="https://user-images.githubusercontent.com/67097862/162108173-7d2c942a-6c5f-4030-97e4-aa91723b43c0.JPG" align ="left" width="200">
 <img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" align = "left" width="200">
 <img src="https://user-images.githubusercontent.com/67097862/162088411-836c58bf-a3d7-4dd9-a7a5-818aa285d646.jpg" align = "center" width="200">
-
+<img src="https://github.com/user-attachments/assets/691b60f8-c00c-4649-b70d-5aea47d96869" align = "center" width="200">
 
 
 
@@ -36,6 +36,25 @@ This repository contains all the programs used within this project:
 4. _nodes_sim_main.py_ - simulates the behavior of the files _main.py_ which are running on the other Rapsberry Pi devices within the system.
 5. _nodes_sim_liquid.py_ - simulates the behavior of the files _liquid.py_ which are running on the other Rapsberry Pi devices within the system.
 <br />
+
+<img width="749" height="418" alt="screenshot-2022-04-07-at-4 04 49-am-1" src="https://github.com/user-attachments/assets/cc721d42-e530-41b2-86b4-7c1db2461b9c" />
+<img width="749" height="390" alt="screenshot-2022-04-07-at-4 05 25-am-1" src="https://github.com/user-attachments/assets/6569fc2d-6572-49a3-b7ac-77e0a3344ffa" />
+<img width="749" height="390" alt="screenshot-2022-04-07-at-4 05 48-am-1" src="https://github.com/user-attachments/assets/50df3fa6-029b-4ac3-bee7-56df596586b1" />
+<img width="749" height="390" alt="screenshot-2022-04-07-at-4 06 06-am-1" src="https://github.com/user-attachments/assets/965b5094-a5c1-4865-a05c-8b3a7f968ba5" />
+<img width="749" height="391" alt="screenshot-2022-04-07-at-4 06 25-am-1" src="https://github.com/user-attachments/assets/1784f18b-e748-42f2-bbe9-5eb645a0122f" />
+<img width="750" height="392" alt="screenshot-2022-04-07-at-4 06 39-am-1" src="https://github.com/user-attachments/assets/41511c3b-bad9-4da5-9d30-41cc7dbdf285" />
+<img width="749" height="390" alt="screenshot-2022-04-07-at-4 06 50-am-1" src="https://github.com/user-attachments/assets/105b71de-e32c-4812-8369-7add223c9af6" />
+<img width="749" height="390" alt="screenshot-2022-04-07-at-4 06 56-am-1" src="https://github.com/user-attachments/assets/8ab40c18-bec1-46ab-bcf4-ceb91275cb6a" />
+<img width="749" height="390" alt="screenshot-2022-04-07-at-4 10 18-am-1" src="https://github.com/user-attachments/assets/9533ce99-436e-4ea7-9ac5-1c4edbc365f8" />
+<img width="749" height="388" alt="screenshot-2022-04-07-at-4 14 18-am" src="https://github.com/user-attachments/assets/0bd9874c-6269-4020-94d5-2b4c76b69e8b" />
+<img width="750" height="392" alt="screenshot-2022-04-07-at-4 14 33-am" src="https://github.com/user-attachments/assets/58ae23cf-59d3-40b4-8a9c-e0c9ad1c745c" />
+<img width="749" height="391" alt="screenshot-2022-04-07-at-4 18 13-am" src="https://github.com/user-attachments/assets/69ad6086-1938-4eb0-b7e7-485bbc731c8d" />
+<img width="749" height="392" alt="screenshot-2022-04-07-at-4 50 10-am" src="https://github.com/user-attachments/assets/f7c23352-b631-4fcb-b77a-5c4e1a812214" />
+<img width="749" height="390" alt="screenshot-2022-04-07-at-4 50 27-am" src="https://github.com/user-attachments/assets/954566bf-af90-44c8-b47c-68d651d1c2fd" />
+<img width="749" height="389" alt="screenshot-2022-04-07-at-4 52 51-am" src="https://github.com/user-attachments/assets/7fef541a-206a-48e6-820b-dcf9a8b61fa0" />
+
+ 
+
 
 Feel free to have a read of my report on the project if you have a moment (or a few!). It covers the background to the project, the development process and all the nitty-gritty design details:
 
