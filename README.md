@@ -23,7 +23,6 @@ Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.
 </div>
 <br>
 
-### How It Works
 
 The generator provides a **compact, localised energy solution** for high-rise buildings, leveraging existing **wastewater infrastructure**. Housed within a **single wastewater pipe** and enclosed in a **3D-printed casing**, it captures the **kinetic energy** of greywater as it passes over a **Pelton turbine** on the ground floor. The system maximizes the energy harnessed from the wastewater by using **Raspberry Pi microcontrollers**, **electromagnet-operated barriers**, and **integrated liquid and ultrasonic sensors** to redistribute the grey wastewater within the pipe. This controlled redistribution enhances the **effective water head**, increasing **power potential** as the water flows across the turbine.
 
