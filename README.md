@@ -4,7 +4,7 @@
 
 Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.
 
-📄 [Orlando Alexander EPQ Report.pdf](https://github.com/user-attachments/files/22313024/orlando-alexander-epq-report.pdf)
+📄 [Download Project Report.pdf](https://github.com/user-attachments/files/22313024/orlando-alexander-epq-report.pdf)
 
 
 ## 🛠 Tech Stack
