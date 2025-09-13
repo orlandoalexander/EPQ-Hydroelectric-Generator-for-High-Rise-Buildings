@@ -3,9 +3,6 @@
 <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
   <img src="https://user-images.githubusercontent.com/67097862/162108173-7d2c942a-6c5f-4030-97e4-aa91723b43c0.JPG" width="300">
   <img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" width="300">
-</div>
-
-<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
   <img src="https://user-images.githubusercontent.com/67097862/162088411-836c58bf-a3d7-4dd9-a7a5-818aa285d646.jpg" width="300">
   <img src="https://github.com/user-attachments/assets/691b60f8-c00c-4649-b70d-5aea47d96869" width="300">
 </div>
