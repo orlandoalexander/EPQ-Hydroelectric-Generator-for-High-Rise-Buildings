@@ -1,3 +1,66 @@
+# Urban Hydroelectric Optimisation
+
+<img src="https://user-images.githubusercontent.com/67097862/162108173-7d2c942a-6c5f-4030-97e4-aa91723b43c0.JPG" width="400">
+
+**Compact hydroelectric energy generator** designed to harness energy from wastewater in high-rise buildings. Integrates microcontrollers, electromagnets, and sensors to maximise electricity generation from greywater flow, with automated control of water redistribution and turbine interaction.  
+
+Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.  
+
+📄 [Download EPQ Report](https://github.com/orlandoalexander/EPQ-Hydroelectric-Generator-for-High-Rise-Buildings/files/8435207/EPQ.Report.Final.docx)<br><br>
+
+
+## 🛠 Tech Stack
+
+- **Hardware:** Raspberry Pi microcontrollers, Pelton turbine, electromagnet-operated barriers, liquid level & ultrasonic sensors  
+- **Software:** Python (sensor control, barrier automation, central server coordination), MQTT (real-time commands and data transmission between server and Raspberry Pi microcontrollers)<br><br>
+
+
+## 📝 Project Overview
+
+The generator provides a **compact, localised energy solution** for high-rise buildings, leveraging existing wastewater infrastructure. Housed within a single wastewater pipe running along the building, it captures the kinetic energy of greywater as it passes over a Pelton turbine on the ground floor. The system maximizes the energy harnessed from the wastewater by using  Raspberry Pi microcontrollers, electromagnet-operated barriers and integrated liquid and ultrasonic sensors to redistribute the grey wastewater within the pipe. This controlled redistribution enhances the effective water head, increasing power potential as the water flows across the turbine.
+
+### How It Works
+
+Dynamic barriers within the pipe divide the greywater system into sections, with each section corresponding to a specific floor of the high-rise. Unlike traditional water tank-based methods, which can only harness energy from water above the tank, this system stores wastewater from each floor and directs it across the turbine. Additionally, whereas tank-based systems maintain a constant head, this design retains wastewater close to its original floor height, maximising the effective water head and, consequently, the power potential, which is an essential factor in hydropower efficiency.
+
+
+## 🔧 Software Overview
+
+1. **main.py** – Runs on each Raspberry Pi (located at each pipe barrier mechanism), controlling barrier mechanisms, obtaining sensor readings, and communicating with the central server to coordinate actions.
+2. **liquid.py** – Runs on each Raspberry Pi, detecting presence of water below barriers and notifying the central server
+3. **server.py** – Coordinates barrier operations based on sensor data and communicates with Raspberry Pi devices via MQTT.  
+4. **nodes_sim_main.py / nodes_sim_liquid.py** – Simulates multiple Raspberry Pi devices for testing the entire system.  
+
+
+
+## ⚙️ System Components
+
+### Raspberry Pi & Sensors
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/50df3fa6-029b-4ac3-bee7-56df596586b1" width="300" />
+  <img src="https://github.com/user-attachments/assets/1784f18b-e748-42f2-bbe9-5eb645a0122f" width="300" />
+  <img src="https://github.com/user-attachments/assets/41511c3b-bad9-4da5-9d30-41cc7dbdf285" width="300" />
+</p>
+
+### Turbine & Pipe Mechanisms
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/691b60f8-c00c-4649-b70d-5aea47d96869" width="300" />
+  <img src="https://github.com/user-attachments/assets/965b5094-a5c1-4865-a05c-8b3a7f968ba5" width="300" />
+  <img src="https://github.com/user-attachments/assets/cc721d42-e530-41b2-86b4-7c1db2461b9c" width="300" />
+</p>
+
+### Data & Control Visualisation
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/6569fc2d-6572-49a3-b7ac-77e0a3344ffa" width="300" />
+  <img src="https://github.com/user-attachments/assets/50df3fa6-029b-4ac3-bee7-56df596586b1" width="300" />
+  <img src="https://github.com/user-attachments/assets/f7c23352-b631-4fcb-b77a-5c4e1a812214" width="300" />
+</p>
+
+
+
+
+
+
 # Hydroelectric Generator for High-Rise Buildings
 Concealed system which maximises energy harnessed from wastewater using microcontrollers, electromagnets and sensors.
 
