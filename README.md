@@ -1,15 +1,15 @@
 # Urban Hydroelectric Optimisation
 
-<img src="https://user-images.githubusercontent.com/67097862/162108173-7d2c942a-6c5f-4030-97e4-aa91723b43c0.JPG" align ="left" width="300">
-<img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" align = "right" width="300">
-<img src="https://user-images.githubusercontent.com/67097862/162088411-836c58bf-a3d7-4dd9-a7a5-818aa285d646.jpg" align = "left" width="300">
-<img src="https://github.com/user-attachments/assets/691b60f8-c00c-4649-b70d-5aea47d96869" align = "right" width="300">
+<img src="https://user-images.githubusercontent.com/67097862/162108173-7d2c942a-6c5f-4030-97e4-aa91723b43c0.JPG" style="float:left; margin-right:10px;" width="300">
+<img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" style="float:right; margin-left:10px;" width="300">
+<img src="https://user-images.githubusercontent.com/67097862/162088411-836c58bf-a3d7-4dd9-a7a5-818aa285d646.jpg" style="float:left; margin-right:10px;" width="300">
+<img src="https://github.com/user-attachments/assets/691b60f8-c00c-4649-b70d-5aea47d96869" style="float:right; margin-left:10px;" width="300">
 
-<br>
+<br style="clear:both;">
 
 **Compact hydroelectric energy generator** designed to harness energy from wastewater in high-rise buildings. Integrates microcontrollers, electromagnets, and sensors to maximise electricity generation from greywater flow, with automated control of water redistribution and turbine interaction.  
 
-Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.  
+Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.
 
 📄 [Download EPQ Report](https://github.com/orlandoalexander/EPQ-Hydroelectric-Generator-for-High-Rise-Buildings/files/8435207/EPQ.Report.Final.docx)<br><br>
 
