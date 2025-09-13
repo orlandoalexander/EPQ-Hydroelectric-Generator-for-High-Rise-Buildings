@@ -21,7 +21,6 @@ Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.
   <img src="https://user-images.githubusercontent.com/67097862/162088411-836c58bf-a3d7-4dd9-a7a5-818aa285d646.jpg" width="200">
   <img src="https://github.com/user-attachments/assets/691b60f8-c00c-4649-b70d-5aea47d96869" width="200">
 </div>
-<br style="clear:both;">
 
 The generator provides a **compact, localised energy solution** for high-rise buildings, leveraging existing wastewater infrastructure. Housed within a single wastewater pipe running along the building, it captures the kinetic energy of greywater as it passes over a Pelton turbine on the ground floor. The system maximizes the energy harnessed from the wastewater by using  Raspberry Pi microcontrollers, electromagnet-operated barriers and integrated liquid and ultrasonic sensors to redistribute the grey wastewater within the pipe. This controlled redistribution enhances the effective water head, increasing power potential as the water flows across the turbine.
 
