@@ -5,6 +5,8 @@
 <img src="https://user-images.githubusercontent.com/67097862/162088411-836c58bf-a3d7-4dd9-a7a5-818aa285d646.jpg" align = "left" width="300">
 <img src="https://github.com/user-attachments/assets/691b60f8-c00c-4649-b70d-5aea47d96869" align = "right" width="300">
 
+<br>
+
 **Compact hydroelectric energy generator** designed to harness energy from wastewater in high-rise buildings. Integrates microcontrollers, electromagnets, and sensors to maximise electricity generation from greywater flow, with automated control of water redistribution and turbine interaction.  
 
 Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.  
