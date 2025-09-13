@@ -21,7 +21,7 @@ The generator provides a **compact, localised energy solution** for high-rise bu
 
 ### How It Works
 
-Dynamic barriers within the pipe divide the greywater system into sections, with each section corresponding to a specific floor of the high-rise. Unlike traditional water tank-based methods, which can only harness energy from water above the tank, this system stores wastewater from each floor and directs it across the turbine. Additionally, whereas tank-based systems maintain a constant head, this design retains wastewater close to its original floor height, maximising the effective water head and, consequently, the power potential, which is an essential factor in hydropower efficiency.
+Dynamic barriers within the pipe divide the greywater system into sections, with each section corresponding to a specific floor of the high-rise. Unlike traditional water tank-based methods, which can only harness energy from water above the tank, this system stores wastewater from each floor and directs it across the turbine. Additionally, whereas tank-based systems maintain a constant head, this design retains wastewater close to its original floor height, maximising the effective water head and, consequently, the power potential, which is an essential factor in hydropower efficiency.<br><br>
 
 
 ## 🔧 Software Overview
@@ -29,32 +29,37 @@ Dynamic barriers within the pipe divide the greywater system into sections, with
 1. **main.py** – Runs on each Raspberry Pi (located at each pipe barrier mechanism), controlling barrier mechanisms, obtaining sensor readings, and communicating with the central server to coordinate actions.
 2. **liquid.py** – Runs on each Raspberry Pi, detecting presence of water below barriers and notifying the central server
 3. **server.py** – Coordinates barrier operations based on sensor data and communicates with Raspberry Pi devices via MQTT.  
-4. **nodes_sim_main.py / nodes_sim_liquid.py** – Simulates multiple Raspberry Pi devices for testing the entire system.  
+4. **nodes_sim_main.py / nodes_sim_liquid.py** – Simulates multiple Raspberry Pi devices for testing the entire system.<br><br>
 
 
 
-## ⚙️ System Components
+## 📝 Project Components
 
-### Raspberry Pi & Sensors
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/50df3fa6-029b-4ac3-bee7-56df596586b1" width="300" />
-  <img src="https://github.com/user-attachments/assets/1784f18b-e748-42f2-bbe9-5eb645a0122f" width="300" />
-  <img src="https://github.com/user-attachments/assets/41511c3b-bad9-4da5-9d30-41cc7dbdf285" width="300" />
-</p>
-
-### Turbine & Pipe Mechanisms
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/691b60f8-c00c-4649-b70d-5aea47d96869" width="300" />
   <img src="https://github.com/user-attachments/assets/965b5094-a5c1-4865-a05c-8b3a7f968ba5" width="300" />
-  <img src="https://github.com/user-attachments/assets/cc721d42-e530-41b2-86b4-7c1db2461b9c" width="300" />
+  <img src="https://github.com/user-attachments/assets/1784f18b-e748-42f2-bbe9-5eb645a0122f" width="300" />
 </p>
-
-### Data & Control Visualisation
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/6569fc2d-6572-49a3-b7ac-77e0a3344ffa" width="300" />
-  <img src="https://github.com/user-attachments/assets/50df3fa6-029b-4ac3-bee7-56df596586b1" width="300" />
+  <img src="https://github.com/user-attachments/assets/41511c3b-bad9-4da5-9d30-41cc7dbdf285" width="300" />
+  <img src="https://github.com/user-attachments/assets/105b71de-e32c-4812-8369-7add223c9af6" width="300" />
+</p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/8ab40c18-bec1-46ab-bcf4-ceb91275cb6a" width="300" />
+  <img src="https://github.com/user-attachments/assets/9533ce99-436e-4ea7-9ac5-1c4edbc365f8" width="300" />
+</p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/0bd9874c-6269-4020-94d5-2b4c76b69e8b" width="300" />
+  <img src="https://github.com/user-attachments/assets/58ae23cf-59d3-40b4-8a9c-e0c9ad1c745c" width="300" />
+</p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/69ad6086-1938-4eb0-b7e7-485bbc731c8d" width="300" />
   <img src="https://github.com/user-attachments/assets/f7c23352-b631-4fcb-b77a-5c4e1a812214" width="300" />
 </p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/954566bf-af90-44c8-b47c-68d651d1c2fd" width="300" />
+  <img src="https://github.com/user-attachments/assets/7fef541a-206a-48e6-820b-dcf9a8b61fa0" width="300" />
+</p>
+
 
 
 
