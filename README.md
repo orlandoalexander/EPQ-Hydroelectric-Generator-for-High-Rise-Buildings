@@ -1,13 +1,5 @@
 # Urban Hydroelectric Optimisation
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
-  <img src="https://user-images.githubusercontent.com/67097862/162108173-7d2c942a-6c5f-4030-97e4-aa91723b43c0.JPG" width="300">
-  <img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" width="300">
-  <img src="https://user-images.githubusercontent.com/67097862/162088411-836c58bf-a3d7-4dd9-a7a5-818aa285d646.jpg" width="300">
-  <img src="https://github.com/user-attachments/assets/691b60f8-c00c-4649-b70d-5aea47d96869" width="300">
-</div>
-<br style="clear:both;">
-
 **Compact hydroelectric energy generator** designed to harness energy from wastewater in high-rise buildings. Integrates microcontrollers, electromagnets, and sensors to maximise electricity generation from greywater flow, with automated control of water redistribution and turbine interaction.  
 
 Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.
@@ -29,6 +21,13 @@ The generator provides a **compact, localised energy solution** for high-rise bu
 
 Dynamic barriers within the pipe divide the greywater system into sections, with each section corresponding to a specific floor of the high-rise. Unlike traditional water tank-based methods, which can only harness energy from water above the tank, this system stores wastewater from each floor and directs it across the turbine. Additionally, whereas tank-based systems maintain a constant head, this design retains wastewater close to its original floor height, maximising the effective water head and, consequently, the power potential, which is an essential factor in hydropower efficiency.<br><br>
 
+<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+  <img src="https://user-images.githubusercontent.com/67097862/162108173-7d2c942a-6c5f-4030-97e4-aa91723b43c0.JPG" width="300">
+  <img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" width="300">
+  <img src="https://user-images.githubusercontent.com/67097862/162088411-836c58bf-a3d7-4dd9-a7a5-818aa285d646.jpg" width="300">
+  <img src="https://github.com/user-attachments/assets/691b60f8-c00c-4649-b70d-5aea47d96869" width="300">
+</div>
+<br style="clear:both;">
 
 ## 🔧 Software Overview
 
