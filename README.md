@@ -4,7 +4,7 @@
 
 Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.
 
-📄 [Download EPQ Report](https://github.com/orlandoalexander/EPQ-Hydroelectric-Generator-for-High-Rise-Buildings/files/8435207/EPQ.Report.Final.docx)<br><br>
+📄 [Orlando Alexander EPQ Report.pdf](https://github.com/user-attachments/files/22313024/orlando-alexander-epq-report.pdf)
 
 
 ## 🛠 Tech Stack
