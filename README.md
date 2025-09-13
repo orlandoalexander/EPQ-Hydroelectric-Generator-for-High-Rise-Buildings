@@ -9,8 +9,8 @@ Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.
 
 ## 🛠 Tech Stack
 
-- **Hardware:** Raspberry Pi microcontrollers, Pelton turbine, electromagnet-operated barriers, liquid level & ultrasonic sensors  
-- **Software:** Python (sensor control, barrier automation, central server coordination), MQTT (real-time commands and data transmission between server and Raspberry Pi microcontrollers)<br><br>
+- **Software:** Python (sensor control, barrier automation, central server coordination), MQTT (real-time commands and data transmission between server and Raspberry Pi microcontrollers)
+- **Hardware:** Raspberry Pi microcontrollers, Pelton turbine, electromagnet-operated barriers, liquid level & ultrasonic sensors<br><br>
 
 
 ## 📝 Project Overview
@@ -27,7 +27,7 @@ Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.
 
 The generator provides a **compact, localised energy solution** for high-rise buildings, leveraging existing **wastewater infrastructure**. Housed within a **single wastewater pipe** running along the building, it captures the **kinetic energy** of greywater as it passes over a **Pelton turbine** on the ground floor. The system maximizes the energy harnessed from the wastewater by using **Raspberry Pi microcontrollers**, **electromagnet-operated barriers**, and **integrated liquid and ultrasonic sensors** to redistribute the grey wastewater within the pipe. This controlled redistribution enhances the **effective water head**, increasing **power potential** as the water flows across the turbine.
 
-**Dynamic barriers** within the pipe divide the greywater system into sections, with each section corresponding to a specific **floor of the high-rise**. Unlike traditional **water tank-based methods**, which can only harness energy from water above the tank, this system stores wastewater from each floor and directs it across the turbine. Additionally, whereas tank-based systems maintain a constant head, this design retains wastewater close to its original floor height, maximising the **effective water head** and, consequently, the **power potential**, which is an essential factor in **hydropower efficiency**.
+**Dynamic barriers** within the pipe divide the greywater system into sections, with each section corresponding to a specific **floor of the high-rise**. Unlike traditional **water tank-based methods**, which can only harness energy from water above the tank, this system stores wastewater from each floor and directs it across the turbine. Additionally, whereas tank-based systems maintain a constant head, this design retains wastewater close to its original floor height, maximising the **effective water head** and, consequently, the **power potential**, which is an essential factor in **hydropower efficiency**.<br><br>
 
 
 ## 🔧 Software Overview
