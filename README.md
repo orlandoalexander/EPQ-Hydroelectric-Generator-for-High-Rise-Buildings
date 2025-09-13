@@ -39,7 +39,7 @@ The generator provides a **compact, localised energy solution** for high-rise bu
 
 
 
-## 📝 Project Components
+## 📊 Project Slides
 
 
 <img src="https://github.com/user-attachments/assets/965b5094-a5c1-4865-a05c-8b3a7f968ba5" width="1000" />
