@@ -15,12 +15,6 @@ Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.
 
 ## 📝 Project Overview
 
-The generator provides a **compact, localised energy solution** for high-rise buildings, leveraging existing wastewater infrastructure. Housed within a single wastewater pipe running along the building, it captures the kinetic energy of greywater as it passes over a Pelton turbine on the ground floor. The system maximizes the energy harnessed from the wastewater by using  Raspberry Pi microcontrollers, electromagnet-operated barriers and integrated liquid and ultrasonic sensors to redistribute the grey wastewater within the pipe. This controlled redistribution enhances the effective water head, increasing power potential as the water flows across the turbine.
-
-### How It Works
-
-Dynamic barriers within the pipe divide the greywater system into sections, with each section corresponding to a specific floor of the high-rise. Unlike traditional water tank-based methods, which can only harness energy from water above the tank, this system stores wastewater from each floor and directs it across the turbine. Additionally, whereas tank-based systems maintain a constant head, this design retains wastewater close to its original floor height, maximising the effective water head and, consequently, the power potential, which is an essential factor in hydropower efficiency.<br><br>
-
 <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
   <img src="https://user-images.githubusercontent.com/67097862/162108173-7d2c942a-6c5f-4030-97e4-aa91723b43c0.JPG" width="200">
   <img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" width="200">
@@ -28,6 +22,13 @@ Dynamic barriers within the pipe divide the greywater system into sections, with
   <img src="https://github.com/user-attachments/assets/691b60f8-c00c-4649-b70d-5aea47d96869" width="200">
 </div>
 <br style="clear:both;">
+
+The generator provides a **compact, localised energy solution** for high-rise buildings, leveraging existing wastewater infrastructure. Housed within a single wastewater pipe running along the building, it captures the kinetic energy of greywater as it passes over a Pelton turbine on the ground floor. The system maximizes the energy harnessed from the wastewater by using  Raspberry Pi microcontrollers, electromagnet-operated barriers and integrated liquid and ultrasonic sensors to redistribute the grey wastewater within the pipe. This controlled redistribution enhances the effective water head, increasing power potential as the water flows across the turbine.
+
+### How It Works
+
+Dynamic barriers within the pipe divide the greywater system into sections, with each section corresponding to a specific floor of the high-rise. Unlike traditional water tank-based methods, which can only harness energy from water above the tank, this system stores wastewater from each floor and directs it across the turbine. Additionally, whereas tank-based systems maintain a constant head, this design retains wastewater close to its original floor height, maximising the effective water head and, consequently, the power potential, which is an essential factor in hydropower efficiency.<br><br>
+
 
 ## 🔧 Software Overview
 
