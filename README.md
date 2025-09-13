@@ -18,9 +18,6 @@ Extended Project Qualification (**EPQ**) Artefact awarded **100% / A***.
 
   <img src="https://user-images.githubusercontent.com/67097862/162108173-7d2c942a-6c5f-4030-97e4-aa91723b43c0.JPG" width="200">
   <img src="https://user-images.githubusercontent.com/67097862/162088634-da5a08fb-c097-48eb-b57a-ca824ceb71d2.jpg" width="200">
-  <img src="https://github.com/user-attachments/assets/d746cd39-e799-4a49-b885-92eb0fce0b8c" width="200">
-  <img src="https://github.com/user-attachments/assets/691b60f8-c00c-4649-b70d-5aea47d96869" width="200">
-
 <br>
 
 
