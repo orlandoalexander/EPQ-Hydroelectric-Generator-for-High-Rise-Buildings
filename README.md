@@ -1,4 +1,4 @@
-# Urban Hydroelectric Optimisation
+# Urban Hydroelectric Generator
 
 **Flow-optimised hydroelectric energy generator** designed to harness energy from wastewater in high-rise buildings. Integrates microcontrollers, electromagnets, custom 3D-printed components, and sensors to maximise electricity generation from greywater, with automated redistribution within the pipe network to optimise water head and turbine efficiency.
 
